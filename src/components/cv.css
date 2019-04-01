@@ -1,0 +1,52 @@
+.cv-part{
+  background: white;
+  padding: 20px;
+  margin: 30px auto;
+  font-family: roboto;
+  position: relative;
+  color: grey;
+  width: 80%;
+
+}
+
+
+
+.curriculum{
+  color: transparent;
+  font-size: 4rem;
+   -webkit-text-stroke: .1rem #0C6CFD;
+}
+
+
+.subtitle{
+  color: #FC8181;
+}
+
+
+.exp{
+  display: flex;
+  width: 800px;
+  justify-content: space-between;
+  margin: 50px;
+  align-items: center;
+  width: 80%;
+}
+
+
+.jaune2{
+  background: yellow ;
+  width: 200px;
+  height: 100px;
+}
+
+
+.cv-part-line{
+  border-bottom: solid 3px #FC8181;
+  transform: rotate(-90deg);
+  margin-left: -1200px;
+  width: 300px;
+}
+
+.picEasyfork{
+  width:300px;
+}

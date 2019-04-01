@@ -1,0 +1,291 @@
+.Profile{
+  background: #0C6CFD;
+
+  padding: 20px;
+
+}
+
+
+.Presentation {
+background: white;
+
+width: 750px;
+height: 600px;
+position: relative;
+padding: 10px;
+}
+
+@media(max-width: 500px) {
+.Presentation{
+  width: 300px;
+height: 300px;
+background: white;
+}
+}
+
+.title{
+
+color: #FC8181;
+top: 0px;
+margin-left: 480px;
+width: 400px;
+}
+
+
+.name{
+  position: absolute;
+   color: transparent;
+  font-size: 4rem;
+   -webkit-text-stroke: .1rem #0C6CFD;
+   transform: rotate(-90deg);
+   top: 400px;
+   left: -50px;
+}
+
+
+.age{
+
+    color: transparent; ;
+  font-size: 4rem;
+   -webkit-text-stroke: .1rem #0C6CFD;
+   margin-top: 10px;
+   margin-left: 150px;
+   z-index: 5;
+   width: 200px;
+   margin-right: 0px
+}
+
+
+.text1{
+  font-family: roboto;
+  position:absolute;
+  top: 60px;
+  font-size: 0.8rem;
+  width: 400px;
+  left: 50px;
+}
+.pic1{
+  position: absolute;
+  width: 350px;
+  transform: rotate(-90deg);
+  left: 50px;
+  top: 270px;
+  z-index: 3;
+}
+
+
+.jaune{
+  background: yellow ;
+  width: 200px;
+  height: 300px;
+  margin-left: 400px;
+  margin-top: -200px;
+  z-index: 2;
+  position: relative;
+}
+
+.jaune3{
+  background: yellow ;
+   width: 300px;
+  height: 200px;
+  margin-top: -200px;
+  margin-left: 100px
+}
+
+.jaune-cv{
+  background: yellow ;
+  width: 200px;
+  height: 100px;
+  margin-top: -120px;
+  margin-left: 30px;
+}
+.pic2{
+  margin-top: -100px;
+  width: 200px;
+  margin-left: 480px;
+  z-index: 5;
+  position: relative;
+
+}
+
+.svgtab{
+  margin-top: -250px;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.line{
+  border-top: solid 3px  #FC8181;
+  width: 450px;
+}
+
+.cvline{
+  border-top: solid 3px  #FC8181;
+  z-index: 10;
+
+}
+
+.pline{
+  position: absolute;
+  border-top: solid 3px  #FC8181;
+  width: 250px;
+  transform: rotate(-90deg);
+  top: 145px;
+  left: -110px;
+}
+
+.cv{
+   color: transparent;
+  font-size: 3rem;
+   -webkit-text-stroke: .1rem #FC8181;
+   transform: rotate(-90deg);
+   position: absolute;
+   top:200px;
+   left: -10px;
+}
+
+.cv:hover{
+   color: #FC8181;
+ transition: all 2s ease-out;
+ cursor:pointer;
+}
+
+.projets{
+    color: transparent; ;
+  font-size: 3rem;
+   -webkit-text-stroke: .1rem #FC8181;
+
+  margin-left: 20px;
+  margin-top: 40px
+}
+
+.projets:hover{
+  color: #FC8181;
+ transition: all 2s ease-out;
+ cursor:pointer;
+}
+
+
+.CVtab{
+  position: relative;
+  padding: 10px;
+  background: white;
+  width: 320px;
+  height: 280px;
+  margin:20px;
+
+}
+
+.Projettab {
+  position: relative;
+  padding: 10px;
+  background: white;
+ width: 320px;
+  height: 280px;
+  margin:20px;
+}
+
+
+
+
+.tabs{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+
+
+.pic3{
+  width: 200px;
+  margin-left: 100px;
+}
+
+
+.pic4{
+  position: relative;
+  width: 200px;
+  margin-top:100px;
+  margin-left: 100px;
+  z-index: 2;
+}
+
+.contact{
+  position: relative;
+  background: white;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  height: 300px
+}
+
+.contact-title{
+  position:absolute;
+  color: transparent;
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  left:-90px;
+  top:130px;
+   -webkit-text-stroke: .1rem #0C6CFD;
+
+}
+
+.contact-line{
+ border-bottom: 3px solid #FC8181;
+  width: 100%;
+
+  position: relative;
+  z-index: 5;
+}
+
+.mail{
+margin-top: 70px;
+margin-left:70px;
+color: #FC8181;
+}
+
+.numero{
+
+margin-left:70px;
+  color: #FC8181;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  width: 80%;
+}
+
+.pic5{
+  width: 300px;
+  height: 200px;
+
+}
+
+.Header{
+display: flex;
+align-items: center;
+margin: auto;
+width: 80%;
+margin:auto;
+}
+
+
+@media(max-width: 1000px) {
+   .tabs{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Header{
+    display: block;
+
+  }
+
+
+}
+
